@@ -61,7 +61,7 @@ print(f"Greatest Increase in Profits: {BigIncDate} (${(BigInc):.2f})")
 print(f"Greatest Decrease in Profits: {BigDecDate} (${(BigDec):.2f})")
 
 #Output final results to txt file
-with open("Financial_Analysis.txt","w") as txtfile:
+with open("Analysis/Financial_Analysis.txt","w") as txtfile:
     txtfile.write("Financial Analysis\n")
     txtfile.write("----------------------------\n")
     txtfile.write(f"Months: {Months}\n")
